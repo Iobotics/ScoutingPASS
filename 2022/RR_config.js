@@ -233,9 +233,9 @@ var config_data = `
           "v":"Very Confident<br>",
           "a":"Average<br>",
           "n":"Not Confident"
-      },
-       "defaultValue":"a"
-    }
+        },
+         "defaultValue":"a"
+      }
     }
   }
 }`;
