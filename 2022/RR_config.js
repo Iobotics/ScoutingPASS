@@ -83,7 +83,7 @@ var config_data = `
       "Auto Aquired Cargo": {
         "code":"ac",
         "title": "Picked up more cargo?",
-        "type":"bool"
+        "type":"counter"
       }
     },
     "teleop": {
@@ -154,15 +154,17 @@ var config_data = `
         "title": "Climb",
         "type":"radio",
         "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "4":"Traversal<br>",
+          "s":"Successful<br>",
           "a":"Attempted but failed<br>",
           "x":"Not attempted"
         },
         "defaultValue":"x"
       },
+      "Climb level(if failed, put last level that was successful)"{
+        "code":"cl",
+        "title":"Climb level",
+        "type":"counter"
+      }
       "If climb failed,<br>Last successful rung,<br>if any": {
         "code":"lsr",
         "title": "If climb failed,<br>last successful rung,<br>if any",
@@ -176,11 +178,6 @@ var config_data = `
           "x":"n/a"
         },
         "defaultValue":"x"
-      },
-      "Started Climb before Endgame": {
-        "code":"be",
-        "title": "Started climb before EndGame",
-        "type":"bool"
       },
       "Num of Robots Climbed": {
         "code":"cn",
