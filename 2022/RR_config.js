@@ -160,7 +160,7 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Climb level(if failed, put last level that was successful)"{
+      "Climb level(if failed, put last level that was successful)": {
         "code":"cl",
         "title":"Climb level",
         "type":"counter"
