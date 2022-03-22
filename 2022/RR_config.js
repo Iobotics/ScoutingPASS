@@ -164,7 +164,7 @@ var config_data = `
         "code":"cl",
         "title":"Climb level",
         "type":"counter"
-      }
+      },
       "If climb failed,<br>Last successful rung,<br>if any": {
         "code":"lsr",
         "title": "If climb failed,<br>last successful rung,<br>if any",
