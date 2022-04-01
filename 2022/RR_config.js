@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022cada",
+        "defaultValue":"2022hiho",
         "required":"true",
         "disabled":"true"
       },
